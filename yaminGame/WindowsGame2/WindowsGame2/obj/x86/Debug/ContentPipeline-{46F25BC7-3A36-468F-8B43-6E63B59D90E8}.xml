@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>basketball.png</Source>
+      <Name>basketball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\basketball.xnb</Output>
+      <Time>2014-11-05T11:10:58.075232+02:00</Time>
+    </Item>
+    <Item>
+      <Source>hand.png</Source>
+      <Name>hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hand.xnb</Output>
+      <Time>2014-11-05T11:10:58.1064321+02:00</Time>
+    </Item>
+    <Item>
+      <Source>hockey_ice.png</Source>
+      <Name>hockey_ice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hockey_ice.xnb</Output>
+      <Time>2015-03-13T07:22:36.0773432+02:00</Time>
+    </Item>
+    <Item>
+      <Source>eballs5.png</Source>
+      <Name>eballs5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eballs5.xnb</Output>
+      <Time>2015-03-13T06:18:23.5895293+02:00</Time>
+    </Item>
+    <Item>
+      <Source>darthvader1.png</Source>
+      <Name>darthvader1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\darthvader1.xnb</Output>
+      <Time>2015-03-13T06:08:41.1323455+02:00</Time>
+    </Item>
+    <Item>
+      <Source>yoda1.png</Source>
+      <Name>yoda1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\yoda1.xnb</Output>
+      <Time>2015-03-13T06:08:41.1093216+02:00</Time>
+    </Item>
+    <Item>
+      <Source>brick.png</Source>
+      <Name>brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\brick.xnb</Output>
+      <Time>2015-03-14T07:40:42.8777499+02:00</Time>
+    </Item>
+    <Item>
+      <Source>swish.wav</Source>
+      <Name>swish</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\swish.xnb</Output>
+      <Time>2014-11-05T11:10:58.1220321+02:00</Time>
+    </Item>
+    <Item>
+      <Source>crash.wav</Source>
+      <Name>crash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\crash.xnb</Output>
+      <Time>2014-11-05T11:10:58.0908321+02:00</Time>
+    </Item>
+    <Item>
+      <Source>MyFont.spritefont</Source>
+      <Name>MyFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\MyFont.xnb</Output>
+      <Time>2015-03-13T11:51:24.5441468+02:00</Time>
+    </Item>
+    <Item>
+      <Source>beep_3.mp3</Source>
+      <Name>beep_3</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.xnb</Output>
+      <Extra>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.wma</Extra>
+      <Time>2015-03-14T19:30:02.8861383+02:00</Time>
+    </Item>
+    <Item>
+      <Source>button_43.mp3</Source>
+      <Name>button_43</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.xnb</Output>
+      <Extra>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.wma</Extra>
+      <Time>2015-03-14T19:47:36.4183636+02:00</Time>
+    </Item>
+    <Item>
+      <Source>whip_whoosh_01.mp3</Source>
+      <Name>whip_whoosh_01</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\whip_whoosh_01.xnb</Output>
+      <Extra>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\whip_whoosh_01.wma</Extra>
+      <Time>2015-03-14T19:47:36.4183636+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ground.jpg</Source>
+      <Name>ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ground.xnb</Output>
+      <Time>2015-04-08T20:10:50.4808794+03:00</Time>
+    </Item>
+    <Item>
+      <Source>dragon-ltr-sprite.png</Source>
+      <Name>dragon-ltr-sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\dragon-ltr-sprite.xnb</Output>
+      <Time>2015-04-08T22:25:46.4687329+03:00</Time>
+    </Item>
+    <Item>
+      <Source>dragon-ltr-sprite-sm.png</Source>
+      <Name>dragon-ltr-sprite-sm</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\dragon-ltr-sprite-sm.xnb</Output>
+      <Time>2015-04-08T22:41:42.8946005+03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{46F25BC7-3A36-468F-8B43-6E63B59D90E8}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-03-14T09:11:07.7346155+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
