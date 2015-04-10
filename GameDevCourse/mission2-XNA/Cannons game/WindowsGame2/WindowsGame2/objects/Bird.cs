@@ -200,14 +200,6 @@ namespace Game.objects
                             this.isAlive = false;
                             return birdCollisionPoint;
                         }
-
-                        //Matrix cannonMat = Matrix.CreateTranslation(-11, -50, 0) * Matrix.CreateRotationZ(player.Angle) * Matrix.CreateScale(playerScaling) * Matrix.CreateTranslation(xPos + 20, yPos - 10, 0);
-                        //Vector2 cannonCollisionPoint = TexturesCollide(cannonColorArray, cannonMat, rocketColorArray, rocketMat);
-                        //if (cannonCollisionPoint.X > -1)
-                        //{
-                        //    players[i].IsAlive = false;
-                        //    return cannonCollisionPoint;
-                        //}
                 }
             
             return new Vector2(-1, -1);

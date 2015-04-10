@@ -26,16 +26,17 @@ namespace Game.objects
         int screenWidth;
         int screenHeight;
         int SNOW_LIM = 30;
+        int sceneNum;
         GraphicsDevice device;
         SpriteBatch spriteBatch;
         Microsoft.Xna.Framework.Game game;
 
         public Color[,] foregroundColorArray { get; set; }
-        public Ground(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight)
+        public Ground(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight, int sceneNum)
             : base(game)
         {
             this.game = game;
-
+            
             device = game.GraphicsDevice;
             groundTexture = game.Content.Load<Texture2D>("ground");
             snowTexture = game.Content.Load<Texture2D>("snow-texture");

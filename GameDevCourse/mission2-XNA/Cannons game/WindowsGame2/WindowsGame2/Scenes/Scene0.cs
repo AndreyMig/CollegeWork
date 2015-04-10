@@ -19,7 +19,7 @@ namespace YaminGame.Scenes
 
 
 
-        private string GAME_HELP = "\nPlayer 1 is yoda " +
+        private string GAME_HELP = "\n " +
                                         "\n    he moves with the arrows, " +
                                         "\n    left arrow for left, right arrow for right. " +
                                         "\nPlayer 2 is darth vader " +

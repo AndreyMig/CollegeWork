@@ -45,7 +45,7 @@ namespace WindowsGame2
             Services.AddService(typeof(SoundCenter), soundCenter);
             Services.AddService(typeof(SpriteFont), font);
             scene0 = new Scene0(this);
-            scene1 = new Scene1(this, screenWidth, screenHeight);
+            scene1 = new Scene1(this, screenWidth, screenHeight, 1);
             scene2 = new Scene2(this, screenWidth, screenHeight);
             scene2.Hide();
             scene1.Hide();

@@ -52,10 +52,10 @@ namespace Game.objects
             Random r = new Random();
             int num = r.Next(1,4);
             randomizeBirdFlight();
-            this.birds = new Bird[3];
+            this.birds = new Bird[num];
             Console.WriteLine("generateFlock() " + num);
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < num; i++)
             {
                 Bird b = new Bird(this.game, this.screenWidth, this.screenHeight, this.flightDirection, i);
                 this.birds[i] = b;
