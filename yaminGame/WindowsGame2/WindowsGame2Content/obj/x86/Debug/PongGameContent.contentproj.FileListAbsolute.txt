@@ -1,0 +1,5 @@
+D:\A_2013\_Game Design_XXX\_Afeka Course Game\_Part1_XNA_Pong\Mica_lecurer_material\MicaPongOpp\WindowsGame2\WindowsGame2Content\obj\x86\Debug\PongGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\mica\Desktop\temp\Game\L2\Lesson2\Lesson2\MicaPongOpp\MicaPongOpp\WindowsGame2\WindowsGame2Content\obj\x86\Debug\PongGameContent.contentprojResolveAssemblyReference.cache
+C:\לימודים\שנה רביעית\סמסטר ב\game dev\MicaPongOpp\MicaPongOpp\WindowsGame2\WindowsGame2Content\obj\x86\Debug\PongGameContent.contentprojResolveAssemblyReference.cache
+C:\visual\yaminGame\WindowsGame2\WindowsGame2Content\obj\x86\Debug\PongGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\AndreyMig\Downloads\Mission 1 Yamin Elmakis\yaminGame\WindowsGame2\WindowsGame2Content\obj\x86\Debug\PongGameContent.contentprojResolveAssemblyReference.cache
