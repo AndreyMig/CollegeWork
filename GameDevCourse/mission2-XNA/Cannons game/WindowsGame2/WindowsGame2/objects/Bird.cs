@@ -110,26 +110,6 @@ namespace Game.objects
         }
 
 
-        //private void randomizeBirdFlight()
-        //{
-        //    Random randomizer = new Random();
-        //    int someRandom = randomizer.Next(10);
-           
-        //    if (someRandom > 5)
-        //    {
-        //        this.flightDirection = LTR_STRING;
-        //        this.birdPosition.X = 0 - SPRITE_RECT_LEN;
-        //    }
-        //    else if (someRandom <= 5)
-        //    {
-        //        this.flightDirection = "rtl";
-        //        this.birdPosition.X = this.screenWidth + SPRITE_RECT_LEN;
-        //    }
-            
-
-
-
-        //}
 
 
         private void changeBirdYSpeed()

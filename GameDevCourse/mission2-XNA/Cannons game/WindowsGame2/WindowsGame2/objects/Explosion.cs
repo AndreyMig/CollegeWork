@@ -54,15 +54,18 @@ namespace Game.objects
 
         public override void Draw(GameTime gameTime)
         {
-            ////spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, null, null, null, null, Game1.globalTransformation);
+            spriteBatch.End();
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, null, null, null, null, Game1.globalTransformation);
             //int cc = 0;
             //foreach (var particle in particleList)
             //{
             //    particle.Draw(gameTime);
             //    Console.WriteLine(cc++);
             //}
-            ////spriteBatch.End();
             DrawExplosion();
+            spriteBatch.End();
+            
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null, null, Game1.globalTransformation);
             base.Draw(gameTime);
         }
         private void DrawExplosion()

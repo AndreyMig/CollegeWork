@@ -26,6 +26,7 @@ namespace Game.objects
         public Vector2 Position;
         public bool IsAlive { set; get; }
         public Color Color;
+        public String name;
         public float Angle{set; get;}
         public float Power {set; get;}
 
@@ -57,7 +58,7 @@ namespace Game.objects
         {
             this.game = game;
             spriteBatch = (SpriteBatch)game.Services.GetService(typeof(SpriteBatch));
-
+            this.name = "Player" + i;
             carriageTexture = game.Content.Load<Texture2D>("carriage");
             cannonTexture = game.Content.Load<Texture2D>("cannon");
             carriageColorArray = Toolbox.TextureTo2DArray(carriageTexture);
@@ -67,6 +68,10 @@ namespace Game.objects
 
             game.IsMouseVisible = true;
         }
+
+
+
+
 
         private void InitCarriage(int i)
         {

@@ -38,7 +38,7 @@ namespace Game.Scenes
         private float playerExplosionSize = 80.0f, playerExplosionMaxAge = 2000.0f, terrainExplosionSize = 30.0f, terrainExplosionMaxAge = 1000.0f;
         private int playerExplosionParticles = 10, terrainExplosionParticles = 4;
 
-        private const int NUM_OF_PLAYERS = 4;
+        private const int NUM_OF_PLAYERS = 2;
         int currentPlayer = 0;
         public override int State { get; set; }
         private Player[] players = new Player[NUM_OF_PLAYERS];
@@ -99,7 +99,10 @@ namespace Game.Scenes
 
         public override void Update(GameTime gameTime)
         {
-            
+
+            if (players.Length == 1)
+                _showEndScene();
+
             // for managing the scenes
             if (endScene)
             {
@@ -111,18 +114,7 @@ namespace Game.Scenes
 
             //birds update
             flock.update(gameTime);
-            //for (int i = 0; i < birds.Length; i++ )
-            //{
-            //    birds[i].Update(gameTime);
-            //    if (!birds[i].isAlive)
-            //        birds[i]  = null;
-            //}
-            //birds = birds.Where(s => s==null).ToArray();
-            //if (birds.Length <= 0)
-            //    generateFlock();
-
-            // check if a player can aim
-            //if ((!Rocket.rocketFlying) && (_explosion.particleList.Count == 0))
+            
             if ((!Rocket.rocketFlying))
                 ProcessKeyboard();
 
@@ -269,15 +261,31 @@ namespace Game.Scenes
         private void NextPlayer()
         {
             // + set the color of the rocket
+            int endGameCounter = 0;
             currentPlayer = currentPlayer + 1;
             currentPlayer = currentPlayer % NUM_OF_PLAYERS;
             while (!players[currentPlayer].IsAlive)
+            {
                 currentPlayer = ++currentPlayer % NUM_OF_PLAYERS;
+                endGameCounter++;
+            }
+            if (endGameCounter >= NUM_OF_PLAYERS - 1)
+                _showEndScene();
+             
+        }
+
+        private void restartGame(){
+
+            Initialize();
+
         }
 
         private void ProcessKeyboard()
         {
             KeyboardState keybState = Keyboard.GetState();
+
+          
+
             if (keybState.IsKeyDown(Keys.Left))
             {
                 players[currentPlayer].Angle -= 0.01f;
@@ -325,9 +333,7 @@ namespace Game.Scenes
         private void _showEndScene()
         {
             endScene = true;
-            if (P1Score == P2Score)
-                endText = "Tie";
-            else endText = (P1Score > P2Score) ? "Player 1 Wins" : "Player 2 Wins";
+            endText = players[currentPlayer].name+ " wins!";
             textSize = font.MeasureString(endText)/2;
         }
 
@@ -366,6 +372,7 @@ namespace Game.Scenes
             //Console.WriteLine(currentAngle);
             spriteBatch.DrawString(font, "Cannon angle: " + currentAngle.ToString(), new Vector2(20, 20), player.Color);
             spriteBatch.DrawString(font, "Cannon power: " + player.Power.ToString(), new Vector2(20, 45), player.Color);
+            spriteBatch.DrawString(font, endText, new Vector2(50, 150), player.Color);
         }
     }
 }
