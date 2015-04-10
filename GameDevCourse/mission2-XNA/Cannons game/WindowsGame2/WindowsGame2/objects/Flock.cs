@@ -21,11 +21,13 @@ namespace Game.objects
         private const String LTR_STRING = "ltr";
         private const String RTL_STRING = "rtl";
         String flightDirection;
-        public Flock(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight)
+        int sceneNum;
+        public Flock(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight, int sceneNum)
         {
             this.game = game;
             this.screenWidth = screenWidth;
             this.screenHeight = screenHeight;
+            this.sceneNum = sceneNum;
             generateFlock();
         }
 
@@ -57,7 +59,7 @@ namespace Game.objects
 
             for (int i = 0; i < num; i++)
             {
-                Bird b = new Bird(this.game, this.screenWidth, this.screenHeight, this.flightDirection, i);
+                Bird b = new Bird(this.game, this.screenWidth, this.screenHeight, this.sceneNum,  this.flightDirection, i);
                 this.birds[i] = b;
             }
 
@@ -90,7 +92,7 @@ namespace Game.objects
         {
             for (int i = 0; i < birds.Length; i++)
             {
-                Console.WriteLine("flock draw() bird num  = " + i);
+                //Console.WriteLine("flock draw() bird num  = " + i);
                 birds[i].Draw(gameTime);
             }
         }

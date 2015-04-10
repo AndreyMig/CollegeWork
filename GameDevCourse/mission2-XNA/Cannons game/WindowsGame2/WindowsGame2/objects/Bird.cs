@@ -49,7 +49,8 @@ namespace Game.objects
             set { timeToUpdate = (1f / value); }
         }
 
-        public Bird(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight, String flightDirection, int offset)
+        public Bird(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight, int sceneNum,
+            String flightDirection, int offset)
             : base(game)
         {
             this.game = game;
@@ -65,13 +66,18 @@ namespace Game.objects
             switch (this.flightDirection)
             {
                 case LTR_STRING:
-
-                    birdSprite = game.Content.Load<Texture2D>("dragon-ltr-sprite-sm");
+                    if (sceneNum == 2)
+                        birdSprite = game.Content.Load<Texture2D>("dragon-ltr-sprite-sm");
+                    else
+                        birdSprite = game.Content.Load<Texture2D>("eagle-ltr");
                     birdPosition.X = 0 - SPRITE_RECT_LEN * (1 + offset);
 
                     break;
                 case RTL_STRING:
-                    birdSprite = game.Content.Load<Texture2D>("dragon-rtl-sprite-sm");
+                    if (sceneNum == 2)
+                        birdSprite = game.Content.Load<Texture2D>("dragon-rtl-sprite-sm");
+                    else
+                        birdSprite = game.Content.Load<Texture2D>("eagle-rtl");
                     Console.WriteLine("screenwidth = " + this.screenWidth);
                     birdPosition.X = this.screenWidth + SPRITE_RECT_LEN*(1+offset);
                     break;

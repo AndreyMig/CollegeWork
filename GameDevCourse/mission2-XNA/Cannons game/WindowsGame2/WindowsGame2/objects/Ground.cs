@@ -36,10 +36,22 @@ namespace Game.objects
             : base(game)
         {
             this.game = game;
-            
+
+            Console.WriteLine("scene num = " + sceneNum);
+
             device = game.GraphicsDevice;
-            groundTexture = game.Content.Load<Texture2D>("ground");
-            snowTexture = game.Content.Load<Texture2D>("snow-texture");
+            if(sceneNum == 1)
+            {
+                groundTexture = game.Content.Load<Texture2D>("ground");
+                snowTexture = game.Content.Load<Texture2D>("snow-texture");
+
+            }
+            if (sceneNum == 2)
+            {
+                groundTexture = game.Content.Load<Texture2D>("lava");
+                snowTexture = game.Content.Load<Texture2D>("lava");
+            }
+
 
             this.screenWidth = screenWidth;
             this.screenHeight = screenHeight;

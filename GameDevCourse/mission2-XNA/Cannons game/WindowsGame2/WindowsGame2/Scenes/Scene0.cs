@@ -20,14 +20,8 @@ namespace YaminGame.Scenes
 
 
         private string GAME_HELP = "\n " +
-                                        "\n    he moves with the arrows, " +
-                                        "\n    left arrow for left, right arrow for right. " +
-                                        "\nPlayer 2 is darth vader " +
-                                        "\n    he moves with the letters 'A' and 'D', " +
-                                        "\n    'A' for left, 'D' for right." +
                                         "\nPress ENTER to start the game." +
-                                        "\npress SPACE to jump to scence 2.";
-    
+                                        "\n  \n  \n  PRESS H TO START GAME IN HELL, ";
 
         public override int State { get; set; }
 
@@ -44,9 +38,9 @@ namespace YaminGame.Scenes
         {
             var keyState = Keyboard.GetState();
             
-            if (keyState.IsKeyDown(Keys.Right))
+            if (keyState.IsKeyDown(Keys.H))
             {
-                
+                State = 2;
             }
 
             if (keyState.IsKeyDown(Keys.Enter))

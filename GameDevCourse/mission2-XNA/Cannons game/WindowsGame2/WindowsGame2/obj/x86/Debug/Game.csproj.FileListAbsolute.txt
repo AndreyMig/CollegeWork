@@ -78,10 +78,8 @@ C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\
 C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\Missions\mission2-XNA\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hitterrain.xnb
 C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\Missions\mission2-XNA\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\launch.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hand.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hockey_ice.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eballs5.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\darthvader1.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\yoda1.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ground.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\dragon-ltr-sprite-sm.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\dragon-rtl-sprite-sm.xnb
@@ -91,7 +89,6 @@ C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons g
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\explosion.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\rocket.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\smoke.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\swish.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\crash.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hitcannon.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hitterrain.xnb
@@ -99,13 +96,15 @@ C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons g
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\MyFont.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\whip_whoosh_01.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.wma
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.wma
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\whip_whoosh_01.wma
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\YaminGame.exe
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\YaminGame.pdb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\obj\x86\Debug\Game.csprojResolveAssemblyReference.cache
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\obj\x86\Debug\YaminGame.exe
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\obj\x86\Debug\YaminGame.pdb
+C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\lava.xnb
+C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eagle-ltr.xnb
+C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eagle-rtl.xnb
+C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hell.xnb

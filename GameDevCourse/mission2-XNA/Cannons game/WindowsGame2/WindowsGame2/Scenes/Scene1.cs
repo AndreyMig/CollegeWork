@@ -29,6 +29,7 @@ namespace Game.Scenes
         private string endText = "";
         private float timeElapsed, timeToUpdate = 1f;
         private Explosion _explosion;
+        Random randomizer = new Random();
         private Vector2 textSize;
         private Rocket _rocket;
         //List<int> vf = new List<int>();
@@ -37,18 +38,18 @@ namespace Game.Scenes
         Flock flock;
         private float playerExplosionSize = 80.0f, playerExplosionMaxAge = 2000.0f, terrainExplosionSize = 30.0f, terrainExplosionMaxAge = 1000.0f;
         private int playerExplosionParticles = 10, terrainExplosionParticles = 4;
-        private int sceneMum = 1;
+        private int sceneNum = 1;
         private const int NUM_OF_PLAYERS = 2;
         int currentPlayer = 0;
         public override int State { get; set; }
         private Player[] players = new Player[NUM_OF_PLAYERS];
-
+        Vector2 randomExplosionPos = new Vector2(-1, -1);
         public Scene1(Microsoft.Xna.Framework.Game game, int screenWidth, int screenHeight, int scene): base(game)
         {
             this.game = game;
             this.screenHeight = screenHeight;
             this.screenWidth = screenWidth;
-            this.sceneMum = scene;
+            this.sceneNum = scene;
             spriteBatch = (SpriteBatch)game.Services.GetService(typeof(SpriteBatch));
             soundCenter = (SoundCenter)game.Services.GetService(typeof(SoundCenter));
             font = (SpriteFont)game.Services.GetService(typeof(SpriteFont));
@@ -59,7 +60,7 @@ namespace Game.Scenes
         public override void Initialize()
         {
 
-            bg = new Ground(this.game, this.screenWidth, this.screenHeight, this.sceneMum);
+            bg = new Ground(this.game, this.screenWidth, this.screenHeight, this.sceneNum);
 
            
                 
@@ -83,7 +84,7 @@ namespace Game.Scenes
 
             _rocket = new Rocket(game, this.screenWidth, this.screenHeight);
             _explosion = new Explosion(game);
-            flock = new Flock(game, this.screenWidth, this.screenHeight);
+            flock = new Flock(game, this.screenWidth, this.screenHeight, this.sceneNum);
             //generateFlock();
             //bird = new Bird(this.game, this.screenWidth, this.screenHeight);
             //goal1Rect = new Rectangle(125, Consts.GoalYline, 200, 1);
@@ -126,6 +127,12 @@ namespace Game.Scenes
 
             if (_explosion.particleList.Count > 0)
                 UpdateParticles(gameTime);
+
+            if (randomExplosionPos.X > -1)
+            {
+                AddExplosion(randomExplosionPos, 4, 30.0f, 1000.0f, gameTime); 
+                this.randomExplosionPos = new Vector2(-1, -1);
+            }
 
             base.Update(gameTime);
         }
@@ -207,8 +214,21 @@ namespace Game.Scenes
         }
 
 
+        protected void AddRandomExplosion()
+        {
 
-        private void AddExplosion(Vector2 explosionPos, int numberOfParticles, float size, float maxAge, GameTime gameTime)
+            
+            int w = randomizer.Next(this.screenWidth);
+            int h = bg.terrainContour[randomizer.Next(bg.terrainContour.Length-1)];
+            
+
+            this.randomExplosionPos = new Vector2(1,1);
+            this.randomExplosionPos.X = w;
+            this.randomExplosionPos.Y = h;
+
+        }
+
+        protected void AddExplosion(Vector2 explosionPos, int numberOfParticles, float size, float maxAge, GameTime gameTime)
         {
             Random randomizer = new Random();
             for (int i = 0; i < numberOfParticles; i++)

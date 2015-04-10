@@ -15,9 +15,6 @@ namespace YaminGame.Utilities
           HitTerrain = game.Content.Load<SoundEffect>("hitterrain");
           Launch = game.Content.Load<SoundEffect>("launch");
 
-          Beep = game.Content.Load<Song>("beep_3");
-          Beep2 = game.Content.Load<Song>("button_43");
-          Whip = game.Content.Load<Song>("whip_whoosh_01");
       }
 
       public SoundEffect HitCannon { get; private set; }

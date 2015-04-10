@@ -73,7 +73,7 @@ namespace Game.objects
             for (int i = 0; i < particleList.Count; i++)
             {
                 Particle particle = particleList[i];
-                Console.WriteLine("particle.Position = " + particle.Position);
+                //Console.WriteLine("particle.Position = " + particle.Position);
 
                 spriteBatch.Draw(explosionTexture, particle.Position, null, particle.ModColor, i, new Vector2(256, 256), particle.Scaling, SpriteEffects.None, 1);
             }
