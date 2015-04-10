@@ -60,7 +60,7 @@ namespace Game.objects
             this.screenHeight = screenHeight;
 
 
-            birdPosition.Y = 50;
+            birdPosition.Y = 80;
 
             switch (this.flightDirection)
             {
