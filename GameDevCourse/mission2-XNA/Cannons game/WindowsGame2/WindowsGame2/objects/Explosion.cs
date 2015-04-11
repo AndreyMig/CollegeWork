@@ -6,8 +6,7 @@ using WindowsGame2;
 using Game.objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using YaminGame.Utilities;
-
+using Game.Utilities;
 namespace Game.objects
 {
     class Explosion : DrawableGameComponent

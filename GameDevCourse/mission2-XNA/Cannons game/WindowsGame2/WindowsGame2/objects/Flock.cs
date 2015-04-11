@@ -7,7 +7,7 @@ using Game.objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
-using YaminGame.Utilities;
+using Game.Utilities;
 
 namespace Game.objects
 {
@@ -70,7 +70,7 @@ namespace Game.objects
 
         public void update(GameTime gameTime)
         {
-            Console.WriteLine("flock update() birds.len = " + birds.Length);
+            //Console.WriteLine("flock update() birds.len = " + birds.Length);
             for (int i = 0; i < birds.Length; i++)
             {
 

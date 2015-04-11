@@ -1,9 +1,9 @@
-// written by Yamin Elmakis 39302468
+// written by Andrey Migalovich
 
 using WindowsGame2;
 using Game;
 
-namespace YaminGame
+namespace Game
 {
 #if WINDOWS || XBOX
     static class Program

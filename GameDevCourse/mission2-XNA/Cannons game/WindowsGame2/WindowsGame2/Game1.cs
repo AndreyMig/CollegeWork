@@ -3,9 +3,8 @@ using Game.Scenes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using YaminGame.Scenes;
-using YaminGame.Utilities;
-
+using Game.Scenes;
+using Game.Utilities;
 //====================
 namespace WindowsGame2
 {

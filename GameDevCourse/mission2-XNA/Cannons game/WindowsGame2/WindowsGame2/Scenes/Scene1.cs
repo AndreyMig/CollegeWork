@@ -5,7 +5,7 @@ using System.Text;
 using WindowsGame2;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-using YaminGame.Utilities;
+using Game.Utilities;
 using Game.objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -132,6 +132,8 @@ namespace Game.Scenes
             {
                 AddExplosion(randomExplosionPos, 4, 30.0f, 1000.0f, gameTime); 
                 this.randomExplosionPos = new Vector2(-1, -1);
+                soundCenter.HitTerrain.Play();
+
             }
 
             base.Update(gameTime);

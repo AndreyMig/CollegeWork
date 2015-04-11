@@ -1,5 +1,4 @@
 Content\hand.xnb
-Content\eballs5.xnb
 Content\darthvader1.xnb
 Content\ground.xnb
 Content\dragon-ltr-sprite-sm.xnb
@@ -15,10 +14,6 @@ Content\hitcannon.xnb
 Content\hitterrain.xnb
 Content\launch.xnb
 Content\MyFont.xnb
-Content\beep_3.xnb
-Content\beep_3.wma
-Content\button_43.xnb
-Content\button_43.wma
 Content\lava.xnb
 Content\eagle-ltr.xnb
 Content\eagle-rtl.xnb

@@ -7,7 +7,7 @@ using Game.objects;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
-using YaminGame.Utilities;
+using Game.Utilities;
 using System.Timers;
 
 namespace Game.Scenes

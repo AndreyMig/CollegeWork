@@ -78,7 +78,6 @@ C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\
 C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\Missions\mission2-XNA\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hitterrain.xnb
 C:\Users\AndreyMig\Copy\College\שנה ג\סמסטר ב\פיתוח משחקים\Missions\mission2-XNA\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\launch.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hand.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eballs5.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\darthvader1.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\ground.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\dragon-ltr-sprite-sm.xnb
@@ -94,10 +93,6 @@ C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons g
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\hitterrain.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\launch.xnb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\MyFont.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.xnb
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.wma
-C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.wma
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\YaminGame.exe
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\YaminGame.pdb
 C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\obj\x86\Debug\Game.csprojResolveAssemblyReference.cache

@@ -11,15 +11,6 @@
       <Time>2014-11-05T11:10:58.1064321+02:00</Time>
     </Item>
     <Item>
-      <Source>eballs5.png</Source>
-      <Name>eballs5</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\eballs5.xnb</Output>
-      <Time>2015-03-13T06:18:23.5895293+02:00</Time>
-    </Item>
-    <Item>
       <Source>darthvader1.png</Source>
       <Name>darthvader1</Name>
       <Importer>TextureImporter</Importer>
@@ -153,26 +144,6 @@
       <Options>None</Options>
       <Output>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\MyFont.xnb</Output>
       <Time>2015-03-13T11:51:24.5441468+02:00</Time>
-    </Item>
-    <Item>
-      <Source>beep_3.mp3</Source>
-      <Name>beep_3</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.xnb</Output>
-      <Extra>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\beep_3.wma</Extra>
-      <Time>2015-03-14T19:30:02.8861383+02:00</Time>
-    </Item>
-    <Item>
-      <Source>button_43.mp3</Source>
-      <Name>button_43</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.xnb</Output>
-      <Extra>C:\Users\AndreyMig\Copy\College\GitProjects\GameDevCourse\mission2-XNA\Cannons game\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\button_43.wma</Extra>
-      <Time>2015-03-14T19:47:36.4183636+02:00</Time>
     </Item>
     <Item>
       <Source>lava.png</Source>
