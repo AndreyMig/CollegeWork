@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="46.0" fitWidth="42.0" layoutX="374.0" layoutY="694.0">
+         <image>
+            <Image url="@elevator-bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="16.0" layoutX="378.0" layoutY="695.0">
+         <image>
+            <Image url="@elevator-door-right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="16.0" layoutX="393.0" layoutY="695.0">
+         <image>
+            <Image url="@elevator-door-left.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="800.0" fitWidth="378.0" layoutX="206.0" layoutY="-8.0">
+         <image>
+            <Image url="@building.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

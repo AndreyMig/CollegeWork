@@ -21,9 +21,6 @@ namespace Game.Utilities
       public SoundEffect HitTerrain { get; private set; }
       public SoundEffect Launch { get; private set; }
 
-      public Song Beep { get; private set; }
-      public Song Beep2 { get; private set; }
-      public Song Whip { get; private set; }
   }
 }
 
